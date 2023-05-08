@@ -1,0 +1,80 @@
+header {
+    background-image: url("assets/pattern.jpeg");
+}
+
+main {
+    padding: 10px;
+}
+
+h1 {
+    font-family: Helvetica, "sans-serif";
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, "sans-serif";
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+
+.section1 > h2 {
+    background-color: mediumspringgreen;
+}
+
+main > .section1 {
+    height: 416px;
+}
+
+img[src*='hacksaw'] {
+    padding: 15px 0;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica, "sans-serif";
+}
+
+.price {
+    font-family: Helvetica, 'sans-serif';
+    font-weight: bold;
+    color: blue;
+}
+
+.section2 > h2 {
+    background-color: lightcoral;
+    margin: 0;
+}
+
+img[src*='frames'] {
+    padding: 15px 0;
+}
+
+.section3 > h2 {
+    background-color: skyblue;
+}
+
+img[src*='finnish'] {
+    padding: 15px 0;
+}
+
+footer {
+    background-color: midnightblue;
+    padding: 20px;
+    color: lightblue;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
