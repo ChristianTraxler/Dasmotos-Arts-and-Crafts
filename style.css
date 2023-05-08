@@ -22,6 +22,8 @@ h2 {
     margin-top: 30px;
 }
 
+/* Start of Section 1 */
+
 .section1 > h2 {
     background-color: mediumspringgreen;
 }
@@ -47,6 +49,10 @@ h3 {
     color: blue;
 }
 
+/* End of Section 1 */
+
+/* Start of Section 2 */
+
 .section2 > h2 {
     background-color: lightcoral;
     margin: 0;
@@ -56,6 +62,10 @@ img[src*='frames'] {
     padding: 15px 0;
 }
 
+/* End of Section 2 */
+
+/* Start of Section 3 */
+
 .section3 > h2 {
     background-color: skyblue;
 }
@@ -63,6 +73,8 @@ img[src*='frames'] {
 img[src*='finnish'] {
     padding: 15px 0;
 }
+
+/* End of Section 3 */
 
 footer {
     background-color: midnightblue;
