@@ -2,9 +2,7 @@ header {
     background-image: url("assets/pattern.jpeg");
 }
 
-main {
-    padding: 10px;
-}
+main { padding: 10px; }
 
 h1, h2, h3, p {
     font-family: "Helvetica", sans-serif;
@@ -26,13 +24,9 @@ h2 {
 
 /* Start of Section 1 */
 
-.section1 > h2 {
-    background-color: mediumspringgreen;
-}
+.section1 > h2 { background-color: mediumspringgreen; }
 
-img[src*='hacksaw'] {
-    padding: 15px 0;
-}
+img[src*='hacksaw'] { padding: 15px 0; }
 
 h3 {
     color: black;
@@ -47,34 +41,23 @@ h3 {
     color: blue;
 }
 
-p {
-    font-size: 1rem;
-}
+p { font-size: 1rem; }
 
 /* End of Section 1 */
 
 /* Start of Section 2 */
 
-.section2 > h2 {
-    background-color: lightcoral;
-    /*margin: 0;*/
-}
+.section2 > h2 { background-color: lightcoral; }
 
-img[src*='frames'] {
-    padding: 15px 0;
-}
+img[src*='frames'] { padding: 15px 0; }
 
 /* End of Section 2 */
 
 /* Start of Section 3 */
 
-.section3 > h2 {
-    background-color: skyblue;
-}
+.section3 > h2 { background-color: skyblue; }
 
-img[src*='finnish'] {
-    padding: 15px 0;
-}
+img[src*='finnish'] { padding: 15px 0; }
 
 /* End of Section 3 */
 
@@ -84,9 +67,7 @@ footer {
     color: lightblue;
 }
 
-footer > p {
-    text-align: center;
-}
+footer > p { text-align: center; }
 
 footer > p > a {
     text-decoration: none;
